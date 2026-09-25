@@ -1,0 +1,7 @@
+MANUAL DEL PUESTO DE ENCARGADO/A DE DEPÓSITO Y LOGÍSTICA
+
+Abrir ABRIR_MANUAL.html con el navegador. Funciona sin conexión.
+Conservar juntas las carpetas capturas y videos.
+El índice permite ir a una tarea y cada captura se puede ampliar.
+Versión 0.1 para revisión operativa; pendientes dentro del manual.
+Los archivos originales no fueron alterados.

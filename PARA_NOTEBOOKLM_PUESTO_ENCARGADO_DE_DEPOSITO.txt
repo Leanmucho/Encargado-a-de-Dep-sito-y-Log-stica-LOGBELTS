@@ -1,0 +1,1234 @@
+﻿BASE DOCUMENTAL PARA NOTEBOOKLM
+PUESTO DE ENCARGADO/A DE DEPÓSITO Y LOGÍSTICA — LOGBELTS
+Versión 0.2 — corrección del alcance del puesto
+
+ALCANCE
+Este archivo reúne las funciones del puesto actualmente ocupado por Valentina.
+Los procedimientos se expresan con nombres de puestos para que los pueda usar
+cualquier persona designada. No describe el trabajo completo de Administración,
+Ventas, Dirección ni de los operarios: solo sus interacciones necesarias con
+el Encargado/a de Depósito y Logística.
+
+ESTADO Y LÍMITES
+Base de trabajo para revisión operativa. Las fuentes principales son borradores
+y relevamientos hasta el 24/09/2026, no una aprobación formal del manual.
+Se distinguen tareas relevadas, tareas compartidas, actividades temporales,
+propuestas de mejora y procedimientos incompletos. Las propuestas no son normas.
+No se asignan al puesto decisiones comerciales, contables ni autorizaciones
+que corresponden a otros roles. Los casos históricos no prueban el stock actual.
+
+CONTENIDO
+Parte A: responsabilidades, rutina, diez fichas operativas, excepciones,
+regularización temporal, guías de pantalla en texto y pendientes de validación.
+Parte B: instrucciones detalladas existentes de los sistemas, para conservar
+los pasos técnicos que el manual resumido agrupa.
+Parte C: fuentes y límites de interpretación.
+
+Este TXT es autosuficiente para consultas de texto. No incorpora imágenes,
+audio ni videos. Las referencias temporales indican el momento del video fuente;
+subir este archivo no sube esas grabaciones. No es una transcripción integral.
+
+PARTE A — MANUAL DEL PUESTO
+
+
+=================================================================
+
+Qué hace el puesto
+
+Coordina el trabajo del depósito y mantiene alineados el pedido físico, la documentación y el stock del sistema. Prepara la información para el equipo, resuelve faltantes, registra movimientos y libera la documentación del despacho.
+
+Actividad | Responsabilidad | 
+
+Pedidos y prioridades | Encargado/a: prepara la hoja, comunica prioridades y resuelve incidencias. | 
+
+Aprobación para preparar y salir | Administración, Gerencia o Dirección. Un aviso del vendedor no sustituye la aprobación. | 
+
+Picking y empaque | Operarios. El puesto coordina y recibe el resultado. | 
+
+Control del pedido y de la carga | Controlador. Desde el 24/09 el Encargado/a entrega la documentación y no ejecuta el control de carga habitual. | 
+
+Faltantes y cliente | Encargado/a investiga e informa; Ventas define con el cliente la solución comercial. | 
+
+Facturas y notas de crédito | Administración. Las devoluciones corresponden a otra área y no son una tarea de este puesto. | 
+
+Ajustes de stock | Encargado/a ejecuta la diferencia física validada con autorización de Gerencia. | 
+
+El respaldo documentado del Controlador cubre solo la emisión de remitos. No se debe asumir que cubre preparación en BBJet, ajustes, reposición o administración de planillas.
+
+=================================================================
+
+Rutina diaria en una página
+
+Momento | Qué comprobar | Ficha | 
+
+Inicio | Accesos disponibles; pedidos aprobados; forma de envío; prioridades. | P01 y P02 | 
+
+Durante el armado | Consultas de ubicación; faltantes; reemplazos; cambios de prioridad. | P03 y P04 | 
+
+Pedido controlado | Hoja física completa; cantidades reales; pedido correcto en BBJet y PalJet. | P05 | 
+
+Antes de la salida | Remito; cliente; transporte; bultos; autorización de salida. | P06 | 
+
+Cuando llega mercadería | Origen/destino; códigos y cantidades; diferencias pendientes. | P07 | 
+
+Cierre | Pedidos en espera; incidencias abiertas; registros actualizados; orden del depósito. | P10 | 
+
+Secuencia habitual: aprobación → hoja con ubicaciones → picking por operarios → control → empaque → carga digital y remito → liberación → control de carga y despacho.
+
+=================================================================
+
+Checklist para arrancar el día
+
+Empezá por P01: abrí los sistemas, actualizá la planilla y verificá las aprobaciones. Después seguí P02 para entregar al equipo la hoja con ubicaciones, envío y prioridad.
+
+Ir a P01 — Accesos y aprobacionesIr a P02 — Hoja de picking y organización
+
+Marcá las casillas mientras trabajás. Las marcas son una ayuda temporal: se reinician al recargar la página y no constituyen un registro de autorización o ejecución.
+
+=================================================================
+
+P01 Abrir el día y liberar pedidos
+
+Cuándo usar esta lista: Al inicio y cada vez que se aprueba un pedido.
+
+Antes de empezar: PalJet, Excel de autorización de salida y canal de avisos.
+
+Fase 1: Abrir y actualizar
+
+- Abrir sistemas y planillas: Iniciar sesión en PalJet y abrir el Excel de autorización de salida.
+- Actualizar la planilla de salida: Cargar los pedidos del día conservando el formato. Confirmar la forma de envío indicada por el aprobador.
+
+Fase 2: Verificar la autorización y el pedido
+
+- Confirmar la aprobación: Confirmar la autorización de Administración, Gerencia o Dirección. El aviso de un vendedor no reemplaza esa aprobación. Si un pedido urgente no figura en la planilla, consultar al aprobador.
+- Buscar y verificar el pedido: Buscar por fecha, cliente y número de comprobante. Comprobar que no esté preparado ni duplicado. El mapa indica Emitido, pero hay una contradicción en las notas: confirmar el filtro vigente con el responsable.
+
+Fase 3: Dejar el pedido listo para preparar
+
+- Imprimir la nota correcta: Seleccionar e imprimir la nota verificada. Para ver las pantallas, consultar G01.
+- Preparar la hoja de picking: Continuar con P02 para agregar ubicaciones, forma de envío y prioridad.
+
+Listo cuando: La nota correcta y autorizada está disponible para preparar la hoja.
+
+Si algo no coincide: No iniciar picking si falta aprobación o hay duda sobre el pedido. Consultar al aprobador.
+Ver la fuente del procedimiento
+Auditoría T-01/T-02; LB-PRO-001 LOG-01; video de notas de pedido.
+
+=================================================================
+
+P02 Preparar la hoja y ordenar el trabajo
+
+Cuándo usar esta lista: Por cada pedido liberado.
+
+Antes de empezar: Nota de pedido, Excel de picking por sectores y forma de envío aprobada.
+
+Fase 1: Preparar la hoja de picking
+
+- Copiar los códigos: Pasar los códigos desde PalJet al buscador del Excel de picking por sectores.
+- Agregar las ubicaciones: Incorporar rack, módulo y nivel de cada artículo. Si correas, cuchillas o espadas no aparecen en el copiado, consultar su ubicación antes de completar la hoja.
+- Anotar la forma de envío: Imprimir la hoja e indicar transporte, retiro o entrega en mano, según lo autorizado.
+
+Fase 2: Organizar el trabajo del equipo
+
+- Definir la prioridad: Seguir el orden de llegada, salvo una prioridad puntual comunicada por Dirección.
+- Entregar la hoja al equipo: Dejar la hoja identificada en la mesa de picking y comunicar qué pedido deben preparar.
+- Comunicar las urgencias: Si cambia la prioridad, informar el nuevo orden e identificar el pedido que queda interrumpido.
+- Revisar el espacio de carga: Verificar si el volumen previsto entra en la camioneta. Si no entra, coordinar la salida.
+
+Listo cuando: El equipo tiene una hoja identificada, ubicaciones, envío y prioridad.
+
+Si algo no coincide: Consultar una ubicación dudosa; no inventarla. El criterio completo de prioridad y capacidad debe validarse.
+Ver la fuente del procedimiento
+Auditoría T-03/T-04; LOG-02. Falta video del Excel de ubicaciones.
+
+=================================================================
+
+P03 Investigar un faltante y un reemplazo
+
+Cuándo usar esta lista: Cuando una línea vuelve en cero o un artículo no aparece.
+
+Antes de empezar: Hoja física, PalJet, planillas de pallets y remitos de proveedor, WhatsApp de movimientos.
+
+Fase 1: Buscar y confirmar
+
+- Identificar el faltante: Identificar código y cantidad faltante en la hoja. Consultar Existencias de artículos en PalJet.
+- Pedir una revisión física: Si hay existencia, pedir al operario que verifique la posición y las posiciones cercanas. Confirmar qué búsquedas ya realizó.
+- Cruzar los registros: Cruzar la planilla del depósito externo, los remitos del proveedor, los movimientos del artículo por fecha y depósito en PalJet, y los avisos de movimientos por WhatsApp.
+- Confirmar la ubicación: Informar la ubicación encontrada y pedir confirmación física. Si está en reserva, coordinar el traslado al sector de picking con personal habilitado. No trepar ni pisar racks.
+
+Fase 2: Resolver el faltante
+
+- Registrar el faltante real: Si se confirma que no hay, registrar el código en el cuadernillo de faltantes y continuar con P04.
+- Validar el reemplazo: Si existe un reemplazo validado, anotar el código sustituto en la hoja y reflejarlo en la carga digital. Coordinar con Ventas cuando cambie lo acordado con el cliente.
+
+Listo cuando: La cantidad física o el faltante quedó confirmado y la hoja expresa lo que realmente se entregará.
+
+Si algo no coincide: No ajustar stock para evitar una búsqueda ni asumir equivalencia por parecido. Derivar códigos dudosos al responsable del maestro y decisiones comerciales a Ventas.
+Ver la fuente del procedimiento
+Auditoría T-05/T-06; LOG-06 y LOG-08; lineamientos de racks.
+
+=================================================================
+
+P04 Pedir reposición al depósito externo
+
+Cuándo usar esta lista: Cuando los faltantes necesitan reposición.
+
+Antes de empezar: Cuadernillo de faltantes y planilla de pallets externos.
+
+Fase 1: Preparar la reposición
+
+- Revisar los faltantes: Revisar los códigos faltantes registrados al controlar las hojas.
+- Identificar el pallet: Buscar cada código en la planilla externa e identificar número de pallet y remito.
+- Solicitar la reposición: Pedir por correo al depósito externo los pallets identificados.
+
+Fase 2: Coordinar y hacer seguimiento
+
+- Avisar a Ventas: Avisar el faltante al vendedor para que lo gestione con el cliente. Según el circuito relevado, lo no entregado de un pedido parcial se cierra; no se presume un envío automático posterior.
+- Coordinar una urgencia: Si hay urgencia para un pedido, coordinar picking en el depósito externo. Los viajes dependen de la necesidad; no hay días obligatorios formalizados.
+- Registrar la recepción: Al recibir la mercadería, seguir P07.
+
+Listo cuando: La reposición está solicitada y Ventas conoce el faltante.
+
+Si algo no coincide: Si el pallet no está identificado, resolver su contenido antes de pedirlo como si estuviera confirmado.
+Ver la fuente del procedimiento
+Auditoría T-07; LOG-08. Registro digital propuesto en formularios.
+
+=================================================================
+
+P05 Pasar el pedido físico al sistema y remitar
+
+Cuándo usar esta lista: Después del control y empaque.
+
+Antes de empezar: Hoja con cantidades reales, reemplazos y bultos; accesos propios a BBJet y PalJet.
+
+Fase 1: Verificar y cargar en BBJet
+
+- Verificar las líneas en cero: Comprobar nuevamente las líneas en cero mediante P03.
+- Abrir el pedido correcto: Ingresar a BBJet, seleccionar el depósito y localizar el pedido por comprobante, cliente y fecha.
+- Cargar las cantidades reales: Cargar las cantidades reales. Si se usa Completar todos como base, corregir todos los faltantes y parciales con el lápiz antes de finalizar.
+- Comparar cada renglón: Agregar solo los artículos y reemplazos que correspondan a la hoja. Comparar cada renglón, no solo el color verde.
+
+Fase 2: Pasar la orden a PalJet
+
+- Finalizar y guardar el código: Finalizar y registrar el código de la Orden de Preparación de Carga.
+- Importar en PalJet: Abrir Preparado de Pedido en PalJet e ingresar el código generado por BBJet con el formato que entrega el circuito. El número mostrado en la captura es solo un ejemplo.
+- Revisar las alertas: Si aparece existencia insuficiente, verificar el físico y la autorización aplicable. No responder Sí por rutina. Ver guía de ajuste.
+- Confirmar el comprobante: Revisar cliente, artículos y cantidades antes de aceptar. Confirmar que se haya generado un comprobante y verificar el efecto en stock.
+
+Fase 3: Emitir y revisar el remito
+
+- Emitir el remito: Emitir el remito en el módulo Remitos con la cuenta indicada por Administración/Gerencia. El relevamiento establece cuenta 1 salvo indicación de Gerencia.
+- Controlar y entregar la documentación: Revisar cliente, artículos, cantidades, transporte, bultos y datos del comprobante. Entregar la documentación para P06.
+
+Listo cuando: El comprobante existe, coincide con lo preparado y el remito correcto está disponible.
+
+Si algo no coincide: La grabación de pre-remito no prueba el resultado posterior a la confirmación. Falta un video completo del remitaje final. No repetir una emisión sin comprobar primero si ya se registró.
+Ver la fuente del procedimiento
+Auditoría T-08; LOG-06; guías BBJet, pre-remito y ajuste.
+
+=================================================================
+
+P06 Liberar el despacho
+
+Cuándo usar esta lista: Cuando se organiza la salida de pedidos.
+
+Antes de empezar: Remitos, bultos, hoja de control y autorización de salida.
+
+Fase 1: Definir qué sale
+
+- Separar los pedidos: Separar los pedidos autorizados para la salida de los que esperan confirmación del cliente.
+- Confirmar qué puede salir: Confirmar con Administración o Gerencia la salida de los pedidos que estaban en espera.
+
+Fase 2: Preparar y entregar la documentación
+
+- Preparar la hoja de control: Preparar la hoja de control de remitos con cantidad de paquetes, código y nombre del cliente, número de remito y bultos totales.
+- Entregar los documentos: Entregar remitos y hoja al Controlador, que controla la carga junto con el transportista.
+- Coordinar retiros y entregas en mano: Para retiro o entrega en mano, mantener el circuito de remitaje y coordinar con quien recibe. El modo de dejar constancia de entrega está pendiente de definición.
+
+Listo cuando: El Controlador tiene la documentación correcta y los pedidos en espera quedaron identificados.
+
+Si algo no coincide: No incluir en la carga un pedido sin confirmación. Resolver diferencias entre etiqueta, bultos y remito antes de liberarlo.
+Ver la fuente del procedimiento
+Auditoría T-09; LOG-07; observación del 24/09.
+
+=================================================================
+
+P07 Registrar movimientos entre depósitos
+
+Cuándo usar esta lista: Cuando hay un traslado de mercadería.
+
+Antes de empezar: Origen, destino, códigos, cantidades y documentación del movimiento.
+
+Fase 1: Identificar y preparar el movimiento
+
+- Identificar la mercadería recibida: Identificar qué mercadería llegó y su documento de traslado. La recepción física la realiza el equipo; el control formal al llegar aparece como una brecha en el relevamiento.
+- Actualizar la planilla externa: Actualizar la planilla externa con pallet, remito, cajas, fecha e ingreso o egreso correspondiente.
+- Elegir cómo cargar: Elegir la modalidad de Remito Interno: pocos artículos, varios renglones manuales o importación desde Excel.
+
+Fase 2: Cargar los datos
+
+- Completar el movimiento: Seleccionar origen y destino, cargar códigos y cantidades y comparar la lista con la documentación y el físico disponible.
+- Preparar el Excel si corresponde: Si se importa Excel, usar la plantilla vigente CARGA DE PEDIDOS EXCEL. Conservar COD_ART y CANTIDAD, guardar y cerrar antes de importar con //.
+
+Fase 3: Verificar antes de confirmar
+
+- Revisar todos los renglones: Verificar todos los renglones. No contar el encabezado como artículo. Si falta un código, localizarlo antes de aceptar.
+- Resolver las alertas: Ante una alerta de existencia, detener la aceptación e investigar. No extender automáticamente la regla de ajuste al remitar a otros movimientos: consultar a Gerencia.
+- Aceptar y comprobar el resultado: Aceptar solo la carga validada y consultar existencias de origen y destino para confirmar el resultado.
+
+Listo cuando: El movimiento validado se registró en ambos depósitos y la planilla quedó actualizada.
+
+Si algo no coincide: Investigar diferencias en el historial por fecha y depósito y solicitar recuento físico. El control de recepción propuesto figura en formularios.
+Ver la fuente del procedimiento
+Auditoría T-11; tres guías de Remito Interno. Diferencia de alcance de ajustes pendiente de validar.
+
+=================================================================
+
+P08 Mantener ubicaciones y datos del depósito
+
+Cuándo usar esta lista: Cuando cambia una ubicación o aparece una caja no registrada.
+
+Antes de empezar: Código, descripción, cantidad física, ubicación y registros del depósito.
+
+Fase 1: Confirmar la información
+
+- Reunir los datos: Recibir del operario código, cantidad y ubicación del pallet. Pedir los datos faltantes antes de registrar.
+- Verificar el artículo: Verificar la identidad del artículo y si la caja contiene más de un código.
+
+Fase 2: Actualizar y comunicar
+
+- Actualizar la ubicación: Actualizar la planilla Picking LB o de ubicaciones con el dato verificado.
+- Registrar ingresos y egresos: Actualizar la planilla externa cuando exista un ingreso o egreso.
+- Avisar al equipo: Comunicar al equipo la ubicación corregida.
+- Derivar los problemas de códigos: Si hay un problema de código, descripción o equivalencia, identificarlo para revisión. Los cambios al maestro y las unificaciones deben seguir el criterio aprobado; no fusionar por cuenta propia.
+
+Listo cuando: Los registros reflejan la ubicación comprobada y el equipo conoce el cambio.
+
+Si algo no coincide: Si el código no se identifica, no elegir uno parecido. Falta confirmar el criterio completo para altas y el responsable de cambios al maestro.
+Ver la fuente del procedimiento
+Auditoría T-13/T-14; relevamiento del 23/09.
+
+=================================================================
+
+P09 Gestionar agregados a pedidos cerrados
+
+Cuándo usar esta lista: Cuando se solicita agregar mercadería a un paquete cerrado.
+
+Antes de empezar: Pedido/remito relacionado y decisión de Ventas o del responsable correspondiente.
+
+Si piden un agregado después del cierre
+
+- Identificar el agregado: Agregado: identificar pedido, bulto y solicitud. La norma relevada indica no agregar una vez cerrado el paquete.
+- Consultar la excepción: Las notas describen tres excepciones sin regla única. Escalar la decisión y confirmar documentación y fecha de salida antes de ejecutar cambios.
+- Coordinar el nuevo pedido: Si se acuerda un nuevo pedido para el agregado, coordinar su preparación y despacho con Ventas. No suponer que sale el mismo día.
+
+Listo cuando: La decisión sobre el agregado quedó comunicada y vinculada al pedido.
+
+Si algo no coincide: No adoptar las variantes informales como autorización general. Falta formalizar el circuito único de agregados.
+Ver la fuente del procedimiento
+LOG-09; auditoría T-10. Alcance corregido por el usuario: devoluciones de otra área.
+
+=================================================================
+
+P10 Supervisar el cierre y entregar pendientes
+
+Cuándo usar esta lista: Al final de la jornada.
+
+Antes de empezar: Estado de pedidos, faltantes, movimientos e incidencias.
+
+Fase 1: Dejar los pendientes registrados
+
+- Identificar los pedidos abiertos: Identificar pedidos preparados, en proceso y en espera de autorización.
+- Dejar los pendientes claros: Dejar identificados faltantes, reposiciones solicitadas y diferencias aún sin resolver.
+- Actualizar los registros: Confirmar que las ubicaciones y movimientos realizados estén registrados.
+
+Fase 2: Dejar el depósito listo
+
+- Supervisar el orden: Supervisar el bloque de orden: pasillos despejados, mesas limpias, insumos repuestos, residuos retirados y equipos en su lugar.
+- Revisar recepción y señalización: Comprobar con el Controlador que no quede mercadería suelta en recepción ni señalización dañada sin informar.
+- Completar el cierre cuando se implemente: Usar la lista de cierre propuesta cuando se apruebe su implementación. Los documentos indican que la planilla de cierre todavía no estaba implementada.
+
+Listo cuando: El depósito está ordenado y los pendientes se pueden retomar al día siguiente.
+
+Si algo no coincide: Informar a Gerencia las incidencias que bloqueen la próxima jornada.
+Ver la fuente del procedimiento
+LOG-11 y lineamientos. Registro de entrega de pendientes propuesto.
+
+=================================================================
+
+Anexo temporal de regularización
+
+Carga de pallets pendientes de la mudanza. Esta tarea debe retirarse de la rutina cuando termine la regularización.
+
+1. Tomar un pallet pendiente del registro de backlog.
+2. Cargarlo de a uno usando el circuito documentado de movimientos; no agrupar pallets si eso suma códigos y pierde trazabilidad.
+3. Comparar códigos y cantidades con la planilla del pallet.
+4. Investigar las diferencias mediante historial y verificación física. No tratar una planilla histórica como prueba suficiente ante una diferencia actual.
+5. Marcar el pallet terminado y actualizar lo que queda pendiente.
+
+Fuente: auditoría T-12. Falta confirmar cuántos productos quedan y el criterio vigente para resolver discrepancias.
+
+=================================================================
+
+Ingreso de importaciones pendiente de completar
+
+El puesto tiene participación declarada en la verificación contra Packing List y el ingreso de mercadería. La documentación general menciona descarga, bultos, embalaje, comparación con Packing List e ingreso a stock, pero las notas de campo indican que los pallets externos se conservan tal como llegan. No existe un circuito detallado y consistente para formar a un reemplazo.
+
+1. Relevar una recepción completa con el responsable del puesto.
+2. Identificar quién descarga, quién cuenta, quién valida diferencias y quién autoriza el alta.
+3. Grabar la pantalla de ingreso y los campos obligatorios con un caso permitido.
+4. Confirmar dónde se archivan Packing List, remitos y diferencias.
+5. Separar el alta del artículo de la asignación de precios, que el relevamiento comercial atribuye a Dirección.
+
+No ejecutar un alta o ingreso nuevo únicamente con este apartado. Es una ficha de relevamiento pendiente, no un procedimiento completo.
+
+=================================================================
+
+G01 Buscar e imprimir una nota de pedido
+
+Antes de imprimir, aplicar la aprobación de P01. Imprimir no aprueba un pedido.
+
+1. Definir el rango de fechas
+
+Abrir la búsqueda de comprobantes y colocar las fechas de la nota.
+
+2. Elegir Nota de pedido
+
+Elegir el tipo de comprobante. Verificar el estado con el circuito vigente.
+
+3. Seleccionar el pedido correcto
+
+Comparar número, fecha y cliente. Abrir la impresión desde el menú contextual.
+
+4. Confirmar la impresión
+
+Revisar impresora, páginas y copias. Aceptar únicamente para la fila verificada.
+
+=================================================================
+
+G02 Cargar cantidades reales en BBJet
+
+El código se genera cerca de 05:10–05:25 del video. El cierre aparece hacia 06:35–06:52; no se ve la verificación posterior. Completar P05 para la emisión y el remito.
+
+1. Revisar la carga inicial
+
+Comparar Cant. a cargar con Cant. cargada y la hoja física. Completar todos es solo una base si hay parciales.
+
+2. Editar un artículo
+
+Seleccionar el renglón y usar el lápiz azul para editar la cantidad.
+
+3. Ingresar lo realmente preparado
+
+Cargar cero si no sale ninguna unidad o la cantidad parcial correcta. Aceptar y repetir para todos los faltantes.
+
+4. Revisar antes de finalizar
+
+Comprobar toda la lista, incluidos agregados y reemplazos. Después finalizar y conservar el código de la orden.
+
+5. Resolver alertas en PalJet
+
+Importar la orden en Preparado de Pedido. Una alerta de existencia requiere revisar físico y autorización; no continuar automáticamente.
+
+=================================================================
+
+G03 Registrar un ajuste de stock autorizado
+
+Aplicación relevada: diferencia física validada durante el remitaje y regularización. Sin mercadería física o autorización de Gerencia, detenerse. La captura no demuestra por sí sola la autorización.
+
+1. Abrir Ajuste de stock
+
+Ingresar a Inventario → Comprobantes → Ajuste de stock.
+
+2. Elegir el depósito
+
+Seleccionar el depósito donde se contó físicamente el artículo.
+
+3. Comprobar cabecera
+
+Revisar depósito, fecha y tipo de movimiento. El ejemplo usa AJUSTE; no define todos los tipos posibles.
+
+4. Cargar artículo y diferencia
+
+Verificar código y descripción. Cargar la diferencia autorizada, no el total físico.
+
+5. Revisar la grilla
+
+Verificar todos los renglones antes de aceptar. Luego comprobar existencia y conservar causa y autorización.
+
+=================================================================
+
+G04 Mover pocos artículos entre depósitos
+
+La respuesta de impresión del ejemplo no constituye una regla general. Elegir según la documentación requerida.
+
+1. Consultar la existencia
+
+Buscar el código y verificar disponibilidad por depósito.
+
+2. Seleccionar depósitos
+
+Abrir Remito Interno y seleccionar origen y destino.
+
+3. Revisar origen y destino
+
+Origen es donde sale; destino es donde se recibe. No invertirlos.
+
+4. Cargar y verificar el artículo
+
+Ingresar cantidad y código. Comprobar descripción y aceptar solo tras validar. Luego consultar ambos depósitos.
+
+=================================================================
+
+G05 Cargar varios artículos uno a uno
+
+No reutilizar los códigos o cantidades de la grabación.
+
+1. Definir el destino
+
+Seleccionar el depósito que recibe la mercadería.
+
+2. Definir el origen
+
+Seleccionar el depósito que entrega la mercadería.
+
+3. Ingresar cada renglón
+
+Cargar cantidad y código. Comprobar que aparezca la descripción esperada.
+
+4. Revisar toda la lista
+
+Repetir hasta completar el movimiento. Revisar cantidades y ambos depósitos antes de aceptar y comprobar existencias.
+
+=================================================================
+
+G06 Importar un movimiento desde Excel
+
+La plantilla de carga no está entre los archivos aportados. Debe obtenerse la plantilla operativa vigente antes de ejecutar este método. No crear una sustituta sin validar el formato.
+
+1. Preparar la plantilla
+
+Usar CARGA DE PEDIDOS EXCEL y conservar las columnas COD_ART y CANTIDAD.
+
+2. Alinear códigos y cantidades
+
+Comprobar cada fila y mantener el formato. Guardar y cerrar el Excel antes de importar.
+
+3. Importar en PalJet
+
+En el remito interno, verificar depósitos e ingresar // en Comprobante/artículo. Elegir el archivo preparado y esperar la carga.
+
+4. Comparar la cantidad de filas
+
+Descontar el encabezado. Si no coincide el número de renglones, buscar el código faltante antes de aceptar.
+
+5. Validar el resultado cargado
+
+Revisar códigos, cantidades y descripciones. Resolver las alertas antes de confirmar el remito interno.
+
+=================================================================
+
+G07 Investigar movimientos de un artículo
+
+Esta consulta apoya P03; no sustituye el cruce completo de las cuatro fuentes. El reporte comercial de ventas queda fuera de la rutina del puesto.
+
+1. Identificar artículo y depósitos
+
+Buscar el código en Existencias de artículos.
+
+2. Definir fechas y depósito
+
+Abrir movimientos del artículo, establecer el período y consultar el depósito pertinente.
+
+3. Interpretar los movimientos
+
+Leer tipo de comprobante, ingresos y egresos. No confundir un traslado con una venta.
+
+4. Revisar códigos equivalentes
+
+Si hay una equivalencia confirmada, repetir con el código relacionado manteniendo el período.
+
+5. Consultar otros depósitos
+
+Cambiar de depósito cuando la investigación lo requiera y contrastar con el físico y las planillas.
+
+=================================================================
+
+Listas de control y registros propuestos
+
+Estos formatos son propuestas para probar y aprobar. Se pueden imprimir junto con el manual. No cambian por sí mismos la asignación de responsabilidades.
+
+Antes de liberar un pedido
+
+- □ Pedido, cliente y autorización coinciden.
+- □ Cantidades reales y reemplazos coinciden con la hoja controlada.
+- □ Comprobante emitido y remito verificado.
+- □ Cuenta, transporte y bultos comprobados.
+- □ Pedidos en espera separados.
+- □ Documentación entregada al Controlador.
+
+Cierre del día
+
+- □ Pedidos en curso y en espera identificados.
+- □ Faltantes y reposiciones revisados.
+- □ Movimientos y ubicaciones actualizados.
+- □ Diferencias de stock informadas.
+- □ Pasillos, recepción, mesas e insumos revisados.
+- □ Pendientes entregados al responsable del próximo turno.
+
+Registro único de incidencias y faltantes
+
+Campo | Qué anotar | 
+
+Fecha y responsable | Quién registra y cuándo. | 
+
+Pedido / comprobante | Referencia que permite rastrear el caso. | 
+
+Código y depósito | Identificación exacta, ubicación y cantidad. | 
+
+Diferencia | Qué dice el sistema y qué se contó físicamente. | 
+
+Acción y autorización | Qué se hizo, quién lo autorizó y dónde está el respaldo. | 
+
+Seguimiento | Pallet solicitado, aviso a Ventas, responsable y fecha de resolución. | 
+
+Control de recepción propuesto
+
+- □ Documento y origen identificados.
+- □ Bultos, códigos, cantidades y embalaje contrastados.
+- □ Diferencias anotadas antes de dar por conforme la recepción.
+- □ Responsable de resolución definido.
+- □ Registro de sistema verificado luego de resolver las diferencias.
+
+=================================================================
+
+Puntos a validar antes de aprobar
+
+Punto | Decisión o evidencia pendiente | 
+
+Remitaje y stock | Mostrar el cierre completo y comprobar en qué comprobante impacta el stock en la configuración vigente. | 
+
+Ajustes fuera del remitaje | La auditoría menciona ajustes ante traslados, pero LOG-12 los limita al remitaje. Definir alcance con Gerencia. | 
+
+Control de carga | Lineamientos v3 aún dicen propuesta; auditoría y campo del 24/09 indican transferencia al Controlador. Confirmar vigencia. | 
+
+Filtro de pedidos | Confirmar estado exacto: algunas notas crudas contradicen al mapa y los videos. | 
+
+Recepción e importaciones | Completar responsables, controles y alta de artículos. No hay tutorial íntegro. | 
+
+Agregados cerrados | Definir regla única, documentación y corte horario. | 
+
+Valor declarado | Validar con Administración/Gerencia el criterio; las notas registran sin IVA y una verificación pendiente. | 
+
+Planillas del puesto | Indicar ubicación compartida y acceso de autorización, picking, pallets y plantilla de importación. | 
+
+Seguridad y reserva | Validar el método y personal habilitado para bajar mercadería de reserva. | 
+
+
+PARTE B — INSTRUCTIVOS TÉCNICOS DETALLADOS
+
+Las advertencias de la Parte A y las aclaraciones finales de este archivo también aplican a estos instructivos.
+
+
+B01 — FUENTE: Paso_a_paso_busqueda_impresion_nota_pedido_2.md
+
+Búsqueda e impresión de una nota de pedido — Video 2
+
+Objetivo
+
+Buscar una nota de pedido y acceder a su impresión desde el menú contextual del listado.
+
+Paso a paso
+
+1. Abrir el listado o consulta de comprobantes.
+2. Abrir la ventana de búsqueda.
+3. Indicar las fechas entre las cuales se debe buscar.
+4. Elegir Nota de pedido en el filtro de tipo de comprobante.
+5. Completar otros filtros solamente si son necesarios para identificar mejor el documento.
+6. Presionar Aceptar para mostrar los resultados.
+7. Identificar la nota correcta por su número, fecha, cliente y demás datos visibles.
+8. Seleccionar la fila.
+9. Hacer clic derecho sobre la nota seleccionada.
+10. Elegir Imprimir comprobante.
+11. Revisar la impresora, las páginas y la cantidad de copias en la ventana del sistema.
+12. Presionar Aceptar para enviar la impresión.
+
+Controles importantes
+
+- La impresión se aplica a la fila seleccionada; comprobarla antes de abrir el menú contextual.
+- Si la nota no aparece, ampliar el rango de fechas o revisar los demás filtros.
+- Evitar imprimir hasta confirmar que el cliente y el número de comprobante sean los correctos.
+
+Referencia del video
+
+- En los primeros segundos se configuran los filtros.
+- Cerca de 00:12 se muestran los resultados.
+- Aproximadamente en 00:18 se elige Imprimir comprobante desde el menú contextual.
+
+Video fuente: Busqueda e impresion de notas de pedido.mp4
+
+
+B02 — FUENTE: Paso_a_paso_picking_digital_primera_parte.md
+
+Picking digital primera parte pasar un pedido físico a BBJet
+
+Objetivo
+
+Abrir en BBJet un pedido pendiente y cargar digitalmente las cantidades preparadas. Este manual cubre solamente la primera parte mostrada en la grabación; no documenta el cierre definitivo ni el paso posterior a PalJet.
+
+Antes de comenzar
+
+- Tener acceso a BBJet.
+- Conocer el depósito desde el que se prepara el pedido.
+- Tener identificado el pedido físico que se va a pasar al sistema.
+- Contar con las cantidades realmente preparadas por artículo.
+
+Paso a paso
+
+1. Seleccionar el depósito
+
+1. Abrir BBJet en el navegador.
+2. En Seleccione un depósito, marcar el depósito desde el cual se realizará el picking.
+3. En el ejemplo se selecciona GRL. RODRIGUEZ 01.
+4. Presionar Siguiente.
+
+2. Ingresar al sistema
+
+1. Completar Usuario y Contraseña.
+2. Presionar Ingresar.
+3. Verificar que el circuito indicado sea Picking Automático y que figure el depósito correcto.
+
+3. Localizar el pedido
+
+1. Abrir la pestaña Expediciones.
+2. Confirmar que el estado de conexión indique Conectado.
+3. Revisar la lista de pedidos disponibles.
+4. Identificar el pedido comparando los datos visibles con la hoja física, especialmente:
+   - Cliente.
+   - Comprobante.
+   - Fecha.
+5. En el pedido correcto, presionar Continuar preparación.
+6. No usar Cancelar salvo que se haya confirmado que el pedido no debe prepararse.
+
+4. Revisar los artículos
+
+1. En la pantalla de picking, verificar los datos del artículo seleccionado:
+   - Descripción.
+   - Código interno.
+   - Código externo, cuando exista.
+   - EAN, cuando exista.
+   - Cantidad disponible mostrada.
+2. Revisar la grilla completa del pedido.
+3. Comparar Cant. a cargar con Cant. cargada en cada renglón.
+4. Usar la lupa de cada renglón cuando sea necesario ver el detalle del artículo.
+
+5. Cargar las cantidades
+
+1. Si todos los artículos fueron preparados en su totalidad, presionar Completar todos.
+2. Verificar que las cantidades cargadas queden completas y que los renglones se muestren validados en verde.
+3. Si algún artículo está incompleto, no darlo por completo: editar o cargar la cantidad realmente preparada antes de continuar.
+4. Para búsquedas o carga individual, usar el criterio disponible en el selector, por ejemplo EAN, y el campo de cantidad.
+5. Si corresponde incorporar un artículo que no figura en la lista, usar Agregar artículo y validar su identidad antes de cargarlo.
+6. Si se debe interrumpir el trabajo, presionar Guardar Estado Actual.
+
+Controles importantes
+
+- El cliente, comprobante y fecha deben coincidir con el pedido físico.
+- La cantidad cargada debe representar lo que se preparó realmente.
+- No completar todos los renglones si existen faltantes o entregas parciales.
+- Revisar los códigos y las descripciones antes de agregar un artículo.
+- Conservar el estado si la carga queda incompleta.
+
+Límite de la grabación
+
+La grabación termina con las cantidades cargadas en verde. Aunque se ve el botón Finalizar, el video no muestra su ejecución, la generación de la orden ni el traspaso a PalJet. Esos pasos están documentados en el manual del video PreRemito_carga_picking_con_actualizacion_del_stock.mp4 y no se deben inferir de esta primera parte.
+
+Video fuente en Drive: Picking_digital_primera_parte_pasar_pedido_fisico_a_digital_por_el_b2b.mp4 (duración aproximada: 49 segundos).
+
+
+B03 — FUENTE: Paso_a_paso_PreRemito_carga_picking_actualizacion_stock.md
+
+Pre-remito: carga de picking y actualización de stock
+
+Objetivo
+
+Registrar en BBJet las cantidades realmente preparadas, generar la Orden de Preparación de Carga y cargarla en PalJet como Preparado de Pedido. La emisión final en PalJet es la instancia que impacta el movimiento de stock.
+
+Sistemas utilizados
+
+- BBJet - Gestión de Inventario: carga y cierre del picking.
+- PalJet ERP: importación de la orden y emisión del Preparado de Pedido.
+
+Antes de comenzar
+
+- Tener usuario y contraseña de BBJet.
+- Confirmar el depósito desde el cual se prepara la mercadería.
+- Tener identificadas las cantidades efectivamente separadas.
+- Contar con acceso a PalJet.
+- No confirmar cantidades superiores a la existencia sin validar previamente el faltante o la autorización correspondiente.
+
+Paso a paso
+
+1. Ingresar a BBJet
+
+1. Abrir BBJet en el navegador.
+2. Completar Usuario y Contraseña.
+3. Presionar Ingresar.
+
+Referencia en el video: 00:08.
+
+2. Seleccionar el depósito
+
+1. En la pantalla Seleccione un depósito, marcar el depósito desde el que se realizará el picking.
+2. En el ejemplo se selecciona GRL. RODRIGUEZ (ID 7).
+3. Presionar Siguiente.
+
+Referencia en el video: 00:15.
+
+3. Completar inicialmente las cantidades solicitadas
+
+1. En la pantalla Picking Automático, revisar la lista de artículos.
+2. Presionar Completar todos para copiar, en cada renglón, la cantidad solicitada de la columna Cant. a cargar a Cant. cargada.
+3. Ante el mensaje “¿Seguro que desea completar todos?”, presionar Aceptar.
+
+Esto sirve como carga inicial. Después deben corregirse uno por uno los artículos faltantes o parcialmente preparados.
+
+Referencia en el video: 00:25.
+
+4. Corregir artículos faltantes o con entrega parcial
+
+1. Ubicar el artículo que no se preparó completo.
+2. Seleccionarlo desde la lista o recorrer los artículos con las flechas arriba y abajo.
+3. Presionar el botón azul con el lápiz (Editar cantidad del artículo actual).
+4. En la ventana Ingrese la cantidad, escribir la cantidad realmente preparada:
+   - 0 si no se entrega ninguna unidad.
+   - Una cantidad menor a la solicitada si la entrega es parcial.
+   - La cantidad total si se preparó completo.
+5. Presionar Aceptar.
+6. Repetir el procedimiento para todos los renglones que requieran corrección.
+
+En el video, los artículos completos quedan en verde y los renglones sin unidades quedan señalados en amarillo/rojo con cantidad 0.
+
+Referencias en el video: 00:35 a 01:55 y 03:05 a 04:55.
+
+5. Agregar un artículo que no estaba incluido
+
+Si durante la preparación debe incorporarse un artículo adicional:
+
+1. Presionar Agregar artículo.
+2. En Buscar artículo, elegir el criterio de búsqueda: ID, EAN o Código.
+3. Ingresar el identificador y presionar la lupa.
+4. Verificar la descripción y el código del resultado.
+5. Presionar OK para incorporarlo al picking.
+6. Cargar o editar la cantidad real del nuevo artículo.
+
+En el ejemplo del video se busca el código 4720519 y se encuentra LLAVE COMB HEMBRA REPL GX270-GX440.
+
+Referencia en el video: 02:05 a 02:25.
+
+6. Hacer el control final del picking
+
+1. Recorrer la lista completa y comparar Cant. a cargar con Cant. cargada.
+2. Verificar especialmente los renglones amarillos o rojos, porque representan cantidades incompletas o en cero.
+3. Confirmar que todos los faltantes y entregas parciales coincidan con la mercadería realmente preparada.
+4. Si se necesita interrumpir el trabajo, usar Guardar Estado Actual antes de salir.
+
+Referencia en el video: 04:35 a 05:10.
+
+7. Finalizar el picking y generar la orden
+
+1. Presionar Finalizar.
+2. Esperar mientras BBJet muestra “Grabando Orden de Preparación de Carga”.
+3. Verificar el mensaje “La Orden de Preparación de Carga se ha generado con éxito”.
+4. Registrar el número mostrado debajo del código de barras. En el ejemplo se genera la orden 3919, presentada para la carga posterior como -3919.
+5. Si se necesita una copia física, presionar Imprimir código.
+
+No presionar Marcar como DESPACHADO en esta etapa salvo que el circuito operativo realmente requiera cerrar el despacho.
+
+Referencia en el video: 05:10 a 05:25.
+
+8. Importar la orden en PalJet
+
+1. Abrir en PalJet la pantalla Preparado de Pedido.
+2. Ubicarse en el campo Comprobante/artículo.
+3. Ingresar el código generado por BBJet con el formato mostrado en el video; ejemplo: -3919.
+4. Confirmar la carga para que PalJet inicialice el comprobante.
+5. Esperar mientras el sistema carga depósito, precios y artículos.
+
+Referencia en el video: 05:30 a 06:35.
+
+9. Resolver las advertencias de existencia
+
+Durante la importación, PalJet puede mostrar el mensaje:
+
+> La cantidad del artículo que intenta ingresar es mayor que las existencias. ¿Continúa?
+
+Para cada advertencia:
+
+1. Revisar el artículo y la cantidad indicados.
+2. Si la diferencia ya fue validada y corresponde continuar, presionar Sí.
+3. Si la cantidad no es correcta o no está autorizada, presionar No, cancelar la emisión y corregir el picking antes de continuar.
+
+En el video se presiona Sí en las advertencias para permitir que PalJet termine de cargar la orden.
+
+Referencia en el video: 05:45 a 06:30.
+
+10. Revisar y emitir el Preparado de Pedido
+
+1. Cuando la barra de carga llegue al 100 %, revisar:
+   - Cliente.
+   - Condición de venta.
+   - Vendedor.
+   - Cantidades y artículos cargados.
+   - Totales del comprobante.
+2. Presionar Aceptar.
+3. PalJet mostrará la confirmación “Emitir: Preparado de Pedido” con la fecha, forma de pago, condición de venta y vendedor.
+4. Presionar Sí para emitir el preparado y confirmar el movimiento que actualiza el stock.
+
+Referencia en el video: 06:35 a 06:52.
+
+> Importante: la grabación termina inmediatamente después de mostrar esta confirmación. No se ve una pantalla posterior que confirme el resultado definitivo. En operación real, verificar que PalJet haya asignado el comprobante y que el stock se haya actualizado antes de cerrar.
+
+Controles posteriores
+
+- Comprobar que el Preparado de Pedido haya quedado emitido y con número de comprobante.
+- Verificar que las cantidades del comprobante coincidan con lo preparado físicamente.
+- Consultar la existencia de uno o más artículos para confirmar el impacto en stock.
+- Guardar o imprimir el comprobante según el circuito interno.
+- Si hubo artículos con stock insuficiente, dejar constancia de la autorización o de la diferencia detectada.
+
+Resumen rápido
+
+1. Ingresar a BBJet.
+2. Seleccionar depósito.
+3. Usar Completar todos.
+4. Corregir faltantes y cantidades parciales con el lápiz.
+5. Agregar artículos faltantes si corresponde.
+6. Revisar toda la lista.
+7. Presionar Finalizar y anotar el código de la Orden de Preparación de Carga.
+8. Cargar ese código en Preparado de Pedido de PalJet.
+9. Resolver conscientemente las advertencias de existencia.
+10. Revisar, presionar Aceptar y confirmar la emisión con Sí.
+11. Verificar el comprobante y la actualización del stock.
+
+Fuente
+
+Video analizado: PreRemito_carga_picking_con_actualizacion_del_stock.mp4 (duración aproximada: 6 minutos 54 segundos).
+
+
+B04 — FUENTE: LOG-12_Ajuste_de_stock.md
+
+LOG-12 Ajuste de stock por diferencia detectada
+
+Empresa: Logbelts S.R.L.  
+Área: Depósito y Logística  
+Sistema: PalJet  
+Fuente técnica: video Ajuste de stock.mp4  
+Regla operativa confirmada: ajuste durante el remitaje, con control físico y autorización de Gerencia
+
+Objetivo
+
+Corregir en PalJet una diferencia puntual que impide continuar con un remito cuando la mercadería existe físicamente, pero el sistema no refleja existencia suficiente.
+
+Condiciones obligatorias
+
+1. El artículo debe haber sido localizado y contado físicamente.
+2. La diferencia debe aparecer durante el remitaje.
+3. El ajuste debe estar autorizado por Gerencia.
+4. Se carga la diferencia necesaria, no el stock físico total.
+5. La causa y la autorización deben quedar asociadas al comprobante o al registro operativo vigente.
+
+Paso a paso
+
+1. Ante el aviso de existencia insuficiente, detener la emisión del remito.
+2. Identificar los artículos y cantidades señalados por PalJet.
+3. Verificar físicamente cada artículo y contar las unidades disponibles.
+4. Comparar la existencia física con la existencia informada por PalJet.
+5. Confirmar la autorización de Gerencia para corregir la diferencia.
+6. Cerrar el mensaje de error de stock.
+7. Ingresar en Inventario > Comprobantes > Ajuste de stock.
+8. Seleccionar el depósito donde se comprobó la mercadería.
+9. Verificar la fecha del movimiento.
+10. Seleccionar el tipo de movimiento correspondiente a la corrección autorizada. En la grabación se utiliza AJUSTE.
+11. Ingresar el código del primer artículo.
+12. Verificar que la descripción, el código externo y la unidad correspondan al artículo contado.
+13. Ingresar la cantidad de la diferencia autorizada.
+14. Incorporar el artículo a la grilla.
+15. Repetir la carga para los demás artículos incluidos en la autorización.
+16. Revisar depósito, fecha, tipo de movimiento, códigos, descripciones y cantidades.
+17. Presionar Aceptar.
+18. En la confirmación de AJUSTE DE STOCK, volver a comprobar fecha y depósito.
+19. Presionar Sí para confirmar.
+20. Consultar nuevamente la existencia de los artículos.
+21. Confirmar que PalJet refleje la corrección necesaria y continuar el remitaje.
+22. Registrar la causa y la autorización de Gerencia.
+
+Controles y límites
+
+- No ajustar si la mercadería no está físicamente disponible.
+- No reemplazar la búsqueda física por un ajuste automático.
+- No usar este circuito como corrección preventiva o general fuera del remitaje.
+- Si el ajuste no resuelve la diferencia, detener el proceso e investigar el historial del artículo y del depósito.
+- El video demuestra la ejecución técnica; la verificación física y la autorización de Gerencia completan la regla operativa confirmada.
+
+Ejemplo observado en el video
+
+El caso grabado se ejecuta en el depósito GRL. RODRIGUEZ y carga dos artículos en un comprobante de tipo AJUSTE. Los códigos y cantidades del ejemplo sirven solamente para reconocer la pantalla; no deben reutilizarse en otro ajuste.
+
+Resultado esperado
+
+El ajuste queda confirmado en PalJet, la existencia digital coincide con la diferencia física validada y el remitaje puede continuar con trazabilidad de la causa y de la autorización.
+
+
+B05 — FUENTE: Paso_a_paso_movimiento_deposito_pocos_articulos.md
+
+Movimiento entre depósitos de pocos artículos
+
+Objetivo
+
+Registrar en PalJet un movimiento interno cuando se trasladan pocos artículos entre dos depósitos.
+
+Paso a paso
+
+1. Consultar el artículo en Existencias de artículos para revisar su disponibilidad antes de iniciar el movimiento.
+2. Confirmar en qué depósito está el stock y cuál será el depósito que lo recibirá.
+3. Abrir la opción Remito Interno.
+4. En Depósito origen, seleccionar el depósito desde el cual sale la mercadería.
+5. En Depósito destino, seleccionar el depósito que recibirá la mercadería.
+6. Cargar la cantidad que se va a trasladar.
+7. Ingresar o buscar el código del artículo.
+8. Verificar que la descripción recuperada por PalJet corresponda al artículo físico que se está moviendo.
+9. Revisar nuevamente origen, destino y cantidad.
+10. Presionar Aceptar para registrar el movimiento.
+11. Cuando PalJet pregunte si se desea imprimir el comprobante, elegir Sí o No según la necesidad. En el ejemplo del video se elige No.
+12. Volver a consultar las existencias para comprobar que el stock se haya descontado del origen y sumado al destino.
+
+Controles importantes
+
+- No invertir origen y destino.
+- Confirmar el código y la descripción antes de aceptar.
+- Verificar que la cantidad física coincida con la ingresada.
+- Los depósitos, códigos y cantidades vistos en el video son ejemplos; deben reemplazarse por los datos del movimiento real.
+
+Referencia del video
+
+- Al comienzo se consulta el stock del artículo.
+- Aproximadamente desde 00:10 se completa el remito interno.
+- Cerca de 00:33 se acepta el movimiento y se responde la consulta de impresión.
+
+Video fuente: movimiento de deposito de pocos articulos.mp4
+
+
+B06 — FUENTE: Paso_a_paso_movimiento_mercaderia_uno_a_uno.md
+
+Movimiento de mercadería cargando artículos uno a uno
+
+Objetivo
+
+Crear un remito interno con varios artículos, ingresando manualmente cada renglón dentro del mismo comprobante.
+
+Cuándo usar este método
+
+Conviene cuando la cantidad de artículos es manejable y no es necesario importar una planilla de Excel.
+
+Paso a paso
+
+1. Abrir Remito Interno en PalJet.
+2. Seleccionar el depósito destino, es decir, el depósito que recibirá la mercadería.
+3. Seleccionar el depósito origen, desde donde se trasladarán los artículos.
+4. Ubicarse en el sector de carga del comprobante.
+5. Ingresar la cantidad del primer artículo.
+6. Ingresar o buscar su código en el campo de artículo del comprobante.
+7. Confirmar que PalJet haya agregado el renglón con la descripción y la cantidad correctas.
+8. Repetir la carga de cantidad + código para cada artículo recibido o por recibir.
+9. Antes de finalizar, revisar la lista completa y controlar:
+   - códigos;
+   - descripciones;
+   - cantidades;
+   - depósito de origen;
+   - depósito de destino.
+10. Presionar Aceptar para registrar el remito interno.
+11. Si aparece la consulta de impresión, elegir la opción correspondiente.
+12. Controlar las existencias de ambos depósitos después de la registración.
+
+Controles importantes
+
+- Todos los artículos se incorporan al mismo remito, pero se cargan uno por uno.
+- Si un renglón es incorrecto, corregirlo antes de aceptar el comprobante.
+- No usar los códigos ni las cantidades del video como valores fijos: son solamente ejemplos.
+
+Referencia del video
+
+- Entre 00:20 y 00:45 se seleccionan los depósitos.
+- Desde aproximadamente 00:45 se cargan sucesivamente las cantidades y los códigos.
+- Al final se indica revisar todos los ítems y presionar Aceptar.
+
+Video fuente: Movimiento de mercaderia uno a uno.mp4
+
+
+B07 — FUENTE: Paso_a_paso_movimiento_interno_por_remito_desde_excel.md
+
+Movimiento interno por remito mediante Excel
+
+Objetivo
+
+Cargar de manera masiva un remito interno en PalJet utilizando la planilla preparada para la importación.
+
+Cuándo usar este método
+
+Se utiliza cuando hay muchos artículos y ya existe una fuente desde la cual copiar códigos y cantidades.
+
+Requisito principal
+
+Usar el archivo llamado CARGA DE PEDIDOS EXCEL. No conviene reemplazarlo por una planilla creada desde cero, porque PalJet necesita el formato esperado para realizar la importación.
+
+La planilla debe contener las columnas:
+
+- COD_ART: código del artículo.
+- CANTIDAD: cantidad a trasladar.
+
+Preparación de la planilla
+
+1. Abrir el archivo fuente que contiene los artículos y cantidades del movimiento.
+2. Abrir la plantilla CARGA DE PEDIDOS EXCEL.
+3. Localizar en el archivo fuente el grupo de artículos que se desea trasladar. En el video se usa la búsqueda de Excel para encontrar un artículo y ubicar el bloque correspondiente.
+4. Copiar los códigos en la columna COD_ART de la plantilla.
+5. Copiar las cantidades correspondientes en la columna CANTIDAD.
+6. Verificar que cada cantidad haya quedado alineada con su código.
+7. Conservar el formato de la plantilla. Si se pegaron datos con otro formato, copiar el formato desde una celda válida de la misma planilla y aplicarlo a las celdas cargadas.
+8. Guardar los cambios.
+9. Cerrar el archivo de Excel antes de importarlo. El video advierte que, si queda abierto o compartido, PalJet puede no poder tomarlo correctamente.
+
+Importación en PalJet
+
+1. Abrir Remito Interno.
+2. Seleccionar el depósito destino.
+3. Seleccionar el depósito origen.
+4. Ubicarse en el campo de carga de Comprobante/artículo.
+5. Escribir dos barras: //.
+6. En la ventana que se abre, seleccionar el archivo de Excel preparado.
+7. Confirmar la selección y esperar a que termine la importación.
+8. No cerrar ni interrumpir PalJet aunque durante unos instantes aparezca como No responde.
+9. Cuando aparezcan los renglones, comparar la cantidad de artículos importados con la cantidad de filas de Excel.
+10. Tener en cuenta que la fila de encabezados no es un artículo. Por ejemplo, si Excel muestra 51 filas contando el encabezado, deben cargarse 50 artículos en PalJet.
+11. Revisar códigos, descripciones, cantidades y total de renglones.
+12. Si PalJet informa falta de stock, comprobar el stock físico y digital de los depósitos involucrados antes de continuar.
+13. Una vez validada toda la carga, aceptar el remito interno y resolver la impresión del comprobante según corresponda.
+
+Errores a evitar
+
+- Importar una planilla distinta de la plantilla prevista.
+- Cambiar el formato de códigos o cantidades.
+- Dejar el Excel abierto al intentar importarlo.
+- Interrumpir PalJet mientras procesa el archivo.
+- Aceptar sin verificar que la cantidad de renglones coincida.
+- Ignorar una alerta de stock sin revisar su causa.
+
+Aclaración sobre el final del video
+
+El video se concentra en la preparación, importación y control de los renglones. La aceptación definitiva debe hacerse solamente después de resolver las advertencias de stock y validar todos los datos.
+
+Video fuente: Movimiento interno por remito a traves de excel.mp4
+
+
+B08 — FUENTE: Paso_a_paso_periodo_venta_articulo.md
+
+Consultar el período de venta de un artículo
+
+Objetivo
+
+Revisar los movimientos de un artículo durante un período para determinar cuántas unidades se vendieron y desde qué depósitos se operó.
+
+Paso a paso
+
+1. Abrir Existencias de artículos.
+2. Buscar el artículo por su código o descripción.
+3. Abrir el detalle del artículo.
+4. Ingresar a la pestaña o consulta de movimientos/existencias correspondiente.
+5. Definir la fecha desde y la fecha hasta del período que se quiere analizar. En el ejemplo se toma desde septiembre del año anterior.
+6. Seleccionar el depósito que se desea revisar, comenzando por Casa Central en el ejemplo.
+7. Ejecutar la consulta para mostrar los movimientos.
+8. Para obtener el total, hacer clic derecho sobre la grilla y activar Pie de grilla.
+9. En el pie, seleccionar la operación Suma sobre la columna de cantidades.
+10. Identificar las operaciones de venta del artículo y obtener el total vendido para ese código.
+11. Verificar si el mismo producto se comercializa con más de un código. Si es así, repetir la búsqueda para cada código relacionado.
+12. Sumar las ventas encontradas en los distintos códigos.
+13. Repetir la consulta para los otros depósitos involucrados, por ejemplo General Rodríguez.
+14. Sumar los resultados de todos los depósitos para obtener el total general del período.
+
+Ejemplo mostrado
+
+- Se analiza un electroimán ingresado durante enero.
+- El producto aparece con más de un código, por lo que se revisan ambos.
+- En Casa Central se observan 14 unidades vendidas bajo un código y 1 bajo el otro.
+- Luego se consulta General Rodríguez.
+- La suma presentada al final del ejemplo es de 20 unidades vendidas.
+
+Estos valores corresponden al caso grabado y no deben tomarse como stock o venta actual.
+
+Controles importantes
+
+- No confundir unidades ingresadas, existencias actuales y unidades vendidas.
+- Revisar todos los códigos asociados al mismo producto.
+- Consultar todos los depósitos relevantes.
+- Mantener el mismo rango de fechas al comparar códigos y depósitos.
+- Confirmar qué tipos de movimiento se están sumando antes de interpretar el total.
+
+Referencia del video
+
+- Desde 00:12 se busca el artículo y se define el período.
+- Cerca de 01:10 se activa el pie de grilla y la suma.
+- Desde aproximadamente 01:40 se revisan los códigos alternativos.
+- En los últimos minutos se consulta otro depósito y se obtiene el total final.
+
+Video fuente: Periodo de venta de un articulo.mp4
+
+
+PARTE C — ACLARACIONES PARA INTERPRETAR LAS FUENTES
+
+1. IMPACTO EN STOCK Y CIERRE DEL PREPARADO
+La guía de pre-remito atribuye el impacto al Preparado de Pedido. La grabación
+termina en la confirmación y no verifica el resultado posterior. Debe confirmarse
+la configuración vigente con el responsable: no afirmar que se comprobó el
+impacto final. Verificar número de comprobante y existencias antes de repetir.
+
+2. ALERTAS Y AJUSTES
+Que el video muestre una respuesta Sí a una alerta no autoriza a aceptarla en
+otra operación. LOG-12 limita los ajustes al remitaje durante la regularización,
+con existencia física comprobada y autorización de Gerencia. La auditoría
+menciona también ajustes durante traslados; esa diferencia de alcance sigue
+pendiente. No extender la autorización a cualquier movimiento de inventario.
+
+3. CONSULTAS POR PERÍODO
+Se conserva el instructivo de movimientos del artículo como apoyo a la búsqueda
+de stock, ubicaciones y equivalencias. El análisis comercial de ventas no es una
+responsabilidad exclusiva adicional de este puesto. No sumar indistintamente
+ventas, traslados, ingresos, devoluciones y ajustes.
+
+4. PROCEDIMIENTOS AÚN INCOMPLETOS
+Falta un circuito validado de importaciones y alta de artículos, la grabación del
+remitaje final y la ubicación de las planillas operativas. Falta formalizar
+recepción de mercadería trasladada, agregados, respaldo integral y varios criterios de
+prioridad. No completar estos vacíos con pasos inventados de PalJet o BBJet.
+
+5. CORRECCIÓN DE ALCANCE CONFIRMADA POR EL USUARIO
+No hay conteo anual. Las devoluciones corresponden a otra área y no son una
+tarea del puesto. Esta aclaración prevalece sobre las referencias históricas
+que atribuían esas responsabilidades al Encargado/a de Depósito.
+No incluirlas al generar rutinas, checklists ni planes de capacitación del puesto.
+
+6. FUENTES PRINCIPALES
+- 20260924_auditoria-tareas-encargada-deposito_v1.1.docx: T-01 a T-15 y límites del puesto.
+- LB-PRO-001_mapa-proceso-logistico.docx: LOG-01 a LOG-11.
+- LB-PRO-001-anexo-fricciones.xlsx: procedimientos y riesgos del área.
+- 20260923_logistica-borrador.docx y 20260924_logistica-borrador.txt: novedades operativas.
+- DEPOSITO_Y_LOGISTICA_LOGBELTS_LINEAMIENTOS_DE_TRABAJO_v3.xlsx: funciones y controles.
+- Ocho instructivos técnicos identificados en la Parte B.
+
+La auditoría y las notas del 24/09 sitúan el control de carga en el Controlador;
+los lineamientos v3 aún lo presentan como propuesta. Esta compilación usa la
+observación más reciente, indicando que debe ratificarse antes de aprobar.
+
+Se excluyen manuales completos de ventas, contabilidad y finanzas, estadísticas
+históricas de clientes, materiales de marca y recomendaciones sobre diseño
+visual del manual. Los formularios propuestos están identificados como propuestas.
